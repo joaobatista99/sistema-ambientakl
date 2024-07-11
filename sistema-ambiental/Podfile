@@ -1,0 +1,25 @@
+# Uncomment the next line to define a global platform for your project
+# platform :ios, '9.0'
+
+target 'sistema-ambiental' do
+  # Comment the next line if you don't want to use dynamic frameworks
+  use_frameworks!
+
+  # Pods for sistema-ambiental
+
+  pod 'Firebase/Analytics'
+  pod 'Firebase/Auth'
+  pod 'FirebaseFirestoreSwift'
+  pod 'FirebaseStorage'
+  pod 'Kingfisher'
+  pod 'RxSwift'
+  pod 'RxCocoa'
+  
+  target 'sistema-ambientalTests' do
+      inherit! :search_paths
+      pod 'RxSwift'
+      pod 'RxCocoa'
+      pod 'RxTest'
+    end
+
+end

@@ -1,0 +1,6 @@
+framework module Pods_sistema_ambiental {
+  umbrella header "Pods-sistema-ambiental-umbrella.h"
+
+  export *
+  module * { export * }
+}
